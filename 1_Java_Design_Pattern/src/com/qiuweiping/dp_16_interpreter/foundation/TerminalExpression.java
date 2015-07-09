@@ -12,4 +12,8 @@ public class TerminalExpression implements Expression{
 		}
 		return false;
 	}
+	
+	public String getData() {
+		return this.data;
+	}
 }
